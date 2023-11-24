@@ -2,10 +2,14 @@
   "id": "00000000-0000-0000-0000-000000000000",
   "title": "User",
   "permissions": [
+    "LOGOUT",
+    "REFRESH_TOKENS",
+    "GET_USER",
     "GET_SELF",
+    "UPDATE_SELF",
+    "DELETE_SELF",
     "GET_ROLE",
-    "UPDATE_ROLE",
-    "DELETE_ROLE",
-    "CREATE_ROLE"
+    "GET_SELF_SESSIONS",
+    "DELETE_SELF_SESSION"
   ]
 }
